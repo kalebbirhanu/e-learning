@@ -1,0 +1,63 @@
+body {
+  
+  
+    background-color: lavender;
+    overflow: scroll;
+    margin: 50px; 
+    font-size: 1em;}
+ h1{
+        text-align: center;}
+     .intro{
+         font-size: 1em;
+         text-transform: capitalize;
+         word-spacing: 10px;
+        background-color: darkkhaki;
+        width: 100%;
+      
+        padding: 20px;
+        }
+      
+    button.intro{
+        text-decoration: none;
+        background-color: aquamarine;
+        padding: 0px;
+    }
+   h1, h2, h3{
+        color: burlywood;
+        text-transform: capitalize;
+    }
+    .content{
+        text-transform: capitalize;
+    }
+  
+    
+    a:hover{
+        color: red;
+    }
+    #form{
+        background-color: rgb(194, 228, 218);
+        width: 50%;
+       
+    }
+    table{
+        border-collapse: collapse;
+      width: 100%;
+    }
+        th, td{
+            padding: 10px;
+            text-align: left;
+            border-bottom: 2px solid red;
+        }
+        tr:hover{
+            background-color: olive;
+        }
+
+input[type=text], input[type=email], input[type=password] {
+    width: 85%;
+    padding: 10px 15px;
+    border-radius: 16px;
+}
+.sign{
+    text-align: right;
+    text-decoration: none;
+}
